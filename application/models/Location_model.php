@@ -11,7 +11,7 @@ class Location_model extends CI_Model
 
     public function get_last_ten_entries()
     {
-        $entries = $this->db->get('location', 10)->result();
+        $entries = $this->db->get('location')->result();
 
         foreach($entries as  $entry){
             $jsonObject = json_decode($entry->response);
@@ -24,7 +24,7 @@ class Location_model extends CI_Model
 
     public function updateLocations()
     {
-        $entries = $this->db->get('location', 10);
+        $entries = $this->db->get('location');
 
         $precipintensityLevel = $this->config->item('precipintensity_level');
         $darkSkyApiKey = $this->config->item('dark_sky_api_key');
