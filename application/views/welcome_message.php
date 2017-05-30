@@ -100,7 +100,7 @@
 <body>
 
 <div id="floating-panel">
-	<button onclick="toggleHeatmap()">Toggle Heatmap</button>
+	<button onclick="toggleHeatmap()">Toggle Map</button>
 	<!--
 	<button onclick="changeGradient()">Change gradient</button>
 	<button onclick="changeRadius()">Change radius</button>
