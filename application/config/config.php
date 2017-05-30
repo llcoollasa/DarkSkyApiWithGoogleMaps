@@ -540,4 +540,14 @@ $config['precipintensity_level'] = '0.1';
 | Dark Sky API Key
 |
 */
-$config['dark_sky_api_key'] = '18b6075a28611750af65334daff96144';
+$config['dark_sky_api_key'] = 'XXX';
+
+/*
+|--------------------------------------------------------------------------
+| Google Js API
+|--------------------------------------------------------------------------
+|
+| Google Js API Key
+|
+*/
+$config['google_js_api'] = 'XXX';

@@ -22,6 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->model('Location_model');
 		$data['locations'] = $this->Location_model->get_last_ten_entries();
+		$data['googleApiKey'] = $this->config->item('google_js_api');
 		$this->load->view('welcome_message',$data);
 	}
 
