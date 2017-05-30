@@ -38,8 +38,8 @@
 				gradient:changeGradient()
 			});
 
-            var kmzLayer = new google.maps.KmlLayer('http://www.google.com/maps/d/u/0/kml?mid=1lMTSXqIUwgT8LCfeRdTqzDKob1Q&lid=boKivgsAWs4');
-            kmzLayer.setMap(map);
+//            var kmzLayer = new google.maps.KmlLayer('http://www.google.com/maps/d/u/0/kml?mid=1lMTSXqIUwgT8LCfeRdTqzDKob1Q&lid=boKivgsAWs4');
+//            kmzLayer.setMap(map);
 			
 
 
